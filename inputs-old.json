@@ -24,9 +24,6 @@
   "song_age_groups": {
     "1": 100, "2": 90, "3": 80, "4": 70, "5": 60,
     "6": 50, "7": 40, "8": 30, "9": 20, "10": 10
-  },
-  "initial_investment": 1000000,
-  "revenue_per_stream": 0.004,
-  "discount_rate": 0.05,
-  "target_roi": 0.5
+  }
+
 }
