@@ -172,13 +172,6 @@ def plot_results(all_results, years, end_year, trials):
     plt.plot(years_range, ci_lower, color='black', linestyle='dashed', linewidth=1, label='90% CI Lower')
     plt.plot(years_range, ci_upper, color='black', linestyle='dashed', linewidth=1, label='90% CI Upper')
     
-    # Add "Property of Courage Music" annotation
-    plt.text(0.95, 0.05, 'Property of Courage Music', 
-             transform=plt.gca().transAxes, 
-             fontsize=10, 
-             verticalalignment='bottom', 
-             horizontalalignment='right', 
-             color='black')
     
     plt.title(f"Total Cumulative Streams Over Time ({trials} Trials, Projected to {end_year})")
     plt.xlabel("Calendar Year")
